@@ -1,0 +1,3 @@
+
+emojivoto kustomize demo app
+============================

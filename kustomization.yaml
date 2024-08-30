@@ -1,0 +1,14 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+resources:
+- deployment_emoji.yml
+- deployment_vote-bot.yml
+- deployment_voting.yml
+- deployment_web.yml
+- namespace_emojivoto.yml
+- service_emoji-svc.yml
+- service_voting-svc.yml
+- service_web-svc.yml
+- serviceaccount_emoji.yml
+- serviceaccount_voting.yml
+- serviceaccount_web.yml
