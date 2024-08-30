@@ -12,3 +12,4 @@ resources:
 - serviceaccount_emoji.yml
 - serviceaccount_voting.yml
 - serviceaccount_web.yml
+- ingress.yml
